@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sandYellow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/bevan"
+            android:text="@string/student"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/studentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:background="@drawable/dialogbox_stroke"
+            android:hint="Student's Name"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/studentCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dialogbox_stroke"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:hint="Student's Course"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/studentAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dialogbox_stroke"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:hint="Student's Age"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/student_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dialogbox_stroke"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:hint="Student's Address"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/studentRollNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dialogbox_stroke"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:hint="Student's RollNo"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center"
+            android:textColorHint="@color/black"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/studentNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dialogbox_stroke"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:hint="Student's Number"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Select Sex"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <Spinner
+                android:id="@+id/studentSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:backgroundTint="@color/teal_200"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/done"
+            android:background="@drawable/dialog_button_design"/>
+
+
+
+       
+    </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>

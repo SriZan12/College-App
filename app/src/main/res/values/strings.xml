@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Reliance International College</string>
+    <string name="signup">SignUp</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signupbutton">Signup</string>
+    <string name="or_signup_with_google">Or SignUp with Google</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="or_n_create_a_account">or\n Create a Account</string>
+    <string name="admin">Admin</string>
+    <string name="enter_admin_s_code">Enter Admin\'s Code</string>
+    <string name="admin_s_code">Admin\'s Code</string>
+    <string name="teacher_s_code">Teacher\'s Code</string>
+    <string name="done">Done</string>
+    <string name="srijan_khadka">Srijan Khadka</string>
+    <string name="bca_1st_semester">BCA 1st Semester</string>
+    <string name="student">Student</string>
+    <string name="courses">Courses</string>
+    <string name="assignment">Assignment</string>
+    <string name="attendance">Attendance</string>
+    <string name="fees">Fees</string>
+    <string name="complains">Complains</string>
+    <string name="library">Library</string>
+    <string name="examination">Examination</string>
+    <string name="time_table">Time Table</string>
+    <string name="event">Event</string>
+    <string name="about_us">About Us</string>
+    <string name="web_client_id">19201450785-f6aoc6dret4d3a2cgj1fdjaphokel4rj.apps.googleusercontent.com</string>
+    <string name="add_course">Add Course</string>
+    <string name="enter_course_name">Enter Course Name</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="reliance_international_college">Reliance International College</string>
+    <string name="enter_existing_years">Enter Existing Years</string>
+    <string name="years">Years :</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_post">Enter Your Post</string>
+    <string name="name">Name</string>
+    <string name="post">Post</string>
+    <string name="enter_event_title">Enter Event Title</string>
+    <string name="enter_event_subtitle">Enter Event SubTitle</string>
+    <string name="description">Description:</string>
+    <string name="title">Title:</string>
+    <string name="set_date">Set Date</string>
+    <string name="subtitle">Subtitle:</string>
+    <string name="username">Username</string>
+    <string name="set_a_username">Set a Username</string>
+    <string name="_1st_sem">1st Sem</string>
+    <string name="_2nd_sem">2nd Sem</string>
+    <string name="_3rd_sem">3rd Sem</string>
+    <string name="_4th_sem">4th Sem</string>
+    <string name="_5th_sem">5th Sem</string>
+    <string name="_6th_sem">6th Sem</string>
+    <string name="_7th_sem">7th Sem</string>
+    <string name="_8th_sem">8th Sem</string>
+    <string name="_4th_year">4th Year</string>
+    <string name="_3rd_year">3rd Year</string>
+    <string name="_2nd_year">2nd Year</string>
+    <string name="_1st_year">1st Year</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="students">Students</string>
+    <string name="subjects">Subjects</string>
+    <string name="student_details">Student Details</string>
+    <string name="choose_your_status">Choose Your Status !!</string>
+
+    <string-array name="sex">
+        <item>
+            Male
+        </item>
+
+        <item>
+            Female
+        </item>
+
+        <item>
+            others
+        </item>
+    </string-array>
+
+</resources>

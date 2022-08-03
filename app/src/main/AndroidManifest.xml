@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.relianceinternationalcollege">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RelianceInternationalCollege"
+        tools:targetApi="31">
+        <activity
+            android:name="Admin.Gallery2.GalleryPostActivity"
+            android:exported="false" />
+        <activity
+            android:name="Student.StudentActivity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Gallery.FullImageActivity"
+            android:exported="false" />
+        <activity
+            android:name="Teacher.TeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Gallery.Gallery"
+            android:exported="false" />
+        <activity
+            android:name="Admin.TimeTable.TimeTableActivity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.LeaveNote.LeaveNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Library.LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Fees.Fees"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Attendance.Attendance"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Notes.NotesActivity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Courses.SubCourses.BSW.SubBSW_Activity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Courses.SubCourses.BBS.SubBBS_Activity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Courses.SubCourses.BCA.SubBCA_Activity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Event.Event"
+            android:exported="false" />
+        <activity
+            android:name="Admin.Courses.CoursesListActivity"
+            android:exported="false" />
+        <activity
+            android:name="Admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name="Admin.Event.Notifications.MyFirebaseMessagingService"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

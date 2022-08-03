@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="15dp"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:text="Reliance College"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/allImages"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/capts"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/capts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@id/textView4"/>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

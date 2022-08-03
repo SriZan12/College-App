@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "19201450785",
+    "project_id": "bachelors--management-system",
+    "storage_bucket": "bachelors--management-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19201450785:android:f50f45a34928a7ad0bd460",
+        "android_client_info": {
+          "package_name": "com.example.relianceinternationalcollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19201450785-f6aoc6dret4d3a2cgj1fdjaphokel4rj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbGhcLpl6yTWXLT82Z8ycSmDWtw_HrB24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19201450785-f6aoc6dret4d3a2cgj1fdjaphokel4rj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
